@@ -1,0 +1,389 @@
+Build a modern, professional, visually impressive **Data Analyst Portfolio Website** for a data analyst who wants to showcase their analytical skills, business impact, projects, and technical expertise.
+
+### Overall Design
+
+Create a clean, premium analytics-focused design that feels professional but not boring. The visual identity should communicate **data, intelligence, insights, and business impact**.
+
+Use a modern layout with:
+- Clean typography
+- Generous whitespace
+- Subtle animations and transitions
+- Data-inspired visual elements
+- Professional dashboard/card aesthetics
+- Responsive design for desktop, tablet, and mobile
+- Light theme with a sophisticated dark navy/charcoal accent palette
+- Subtle use of charts, grids, statistics, and data visualizations
+- Avoid excessive gradients, glassmorphism, or overly flashy effects
+
+The website should feel like a combination of a **professional portfolio + analytics dashboard**.
+
+### Hero Section
+
+Create a compelling hero section containing:
+
+**[ANALYST NAME]**  
+**Data Analyst | Turning Data Into Actionable Insights**
+
+Supporting text:
+
+> I transform complex datasets into clear insights that help businesses make smarter, data-driven decisions.
+
+Include two primary CTA buttons:
+
+- **View My Work**
+- **Let's Connect**
+
+Also include a small availability/status indicator such as:
+
+> ● Available for Data Analytics Opportunities
+
+Add subtle animated data/chart elements in the background.
+
+### Navigation
+
+Create a sticky navigation bar with:
+
+- Home
+- About
+- Skills
+- Projects
+- Experience
+- Certifications
+- Contact
+
+Include a **Download CV** button.
+
+The navigation should smoothly scroll to sections and have an active section indicator.
+
+---
+
+### About Section
+
+Create an engaging About section introducing the analyst.
+
+Include:
+
+- Professional summary
+- Years of experience
+- Industries worked in
+- Approach to data analysis
+- Passion for solving business problems with data
+
+Add a small statistics area with metrics such as:
+
+**3+** Years Experience  
+**20+** Projects Completed  
+**15+** Dashboards Created  
+**10+** Business Problems Solved
+
+Make these numbers easy to replace with real values.
+
+---
+
+### Skills & Tools
+
+Create a visually appealing skills section divided into categories.
+
+**Data Analysis**
+- Excel
+- SQL
+- Python
+- R
+
+**Data Visualization**
+- Power BI
+- Tableau
+- Looker Studio
+
+**Databases**
+- PostgreSQL
+- MySQL
+- SQL Server
+
+**Python/Data Libraries**
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+**Other**
+- Git
+- Jupyter Notebook
+- Google Sheets
+
+Display the tools using elegant cards or badges rather than a basic list.
+
+---
+
+### Featured Projects
+
+This should be one of the most impressive sections of the website.
+
+Create project cards containing:
+
+- Project title
+- Business problem
+- Short description
+- Dataset
+- Tools used
+- Key insights
+- Business impact
+- Screenshot/visualization
+- GitHub link
+- Live dashboard/case study link
+
+Example projects:
+
+#### Sales Performance Analysis
+Analyze sales data to identify revenue trends, top-performing products, customer behavior, and regional performance.
+
+Tools:
+SQL · Excel · Power BI
+
+#### Customer Churn Analysis
+Analyze customer behavior to identify factors contributing to customer churn and recommend retention strategies.
+
+Tools:
+Python · Pandas · SQL · Power BI
+
+#### Financial Performance Dashboard
+Build an interactive dashboard showing revenue, expenses, profit margins, cash flow, and financial trends.
+
+Tools:
+Excel · Power BI · SQL
+
+#### E-commerce Customer Analysis
+Analyze customer purchasing behavior, product performance, repeat purchases, and customer segmentation.
+
+Tools:
+Python · SQL · Tableau
+
+Each project should have a **View Case Study** interaction that opens a detailed project page/modal containing:
+
+1. Business Problem
+2. Dataset
+3. Methodology
+4. Data Cleaning
+5. Exploratory Data Analysis
+6. Key Findings
+7. Visualizations
+8. Recommendations
+9. Business Impact
+
+---
+
+### Data Visualization Showcase
+
+Create a dedicated section that demonstrates the analyst's ability to communicate insights visually.
+
+Include interactive-looking examples of:
+
+- Revenue trends
+- Customer growth
+- Sales by region
+- Product performance
+- Customer segmentation
+- Profit margins
+- Monthly performance
+
+Use realistic sample data and polished charts.
+
+Charts should include:
+- Line charts
+- Bar charts
+- Donut/pie charts where appropriate
+- KPI cards
+- Area charts
+- Heatmaps
+
+Make the visualizations look like professional Power BI/Tableau dashboards rather than generic website charts.
+
+---
+
+### Experience
+
+Create a professional timeline showing the analyst's career experience.
+
+Each position should contain:
+
+**Job Title**  
+Company · Location  
+Date Range
+
+Then show:
+- Responsibilities
+- Analytical projects
+- Tools used
+- Measurable achievements
+- Business impact
+
+Focus the content on measurable outcomes rather than generic job descriptions.
+
+---
+
+### Certifications & Education
+
+Create a clean section for:
+
+- Degree
+- University
+- Professional certifications
+- Data analytics certifications
+- Microsoft/Power BI certifications
+- Google certifications
+- SQL/Python certifications
+
+Each certification should have:
+- Certification name
+- Issuing organization
+- Date
+- Credential/link
+
+---
+
+### Testimonials
+
+Include a small testimonials section containing 2–3 professional testimonials from managers, colleagues, or clients.
+
+Use realistic placeholder content that can easily be replaced.
+
+---
+
+### Contact Section
+
+Create a strong CTA:
+
+**Let's Turn Your Data Into Better Decisions.**
+
+Supporting text:
+
+> Have a project, opportunity, or business problem that could benefit from data? Let's talk.
+
+Include:
+
+- Email
+- LinkedIn
+- GitHub
+- Phone (optional)
+- Location
+
+Add a contact form with:
+
+- Name
+- Email
+- Subject
+- Message
+- Send Message button
+
+Include proper form validation and success/error states.
+
+---
+
+### Footer
+
+Include:
+
+- Analyst name
+- Short tagline
+- Navigation links
+- LinkedIn
+- GitHub
+- Email
+- Copyright
+
+Add a subtle line such as:
+
+> Built with curiosity, data, and continuous learning.
+
+---
+
+### Technical Requirements
+
+Build the website using:
+
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Lucide React icons**
+- **Recharts** for data visualizations
+
+Use reusable components and clean project architecture.
+
+Components should include things such as:
+
+- Navbar
+- Hero
+- Stats
+- About
+- Skills
+- ProjectCard
+- ProjectDetails
+- ChartCard
+- ExperienceTimeline
+- CertificationCard
+- TestimonialCard
+- ContactForm
+- Footer
+
+Keep the project data-driven so projects, skills, experience, certifications, and testimonials can be easily updated from TypeScript data objects rather than hardcoding everything into JSX.
+
+### UX Requirements
+
+Implement:
+
+- Smooth scrolling
+- Scroll reveal animations
+- Hover effects
+- Active navigation state
+- Responsive mobile navigation
+- Accessible buttons and links
+- Keyboard accessibility
+- Loading states where appropriate
+- Form validation
+- SEO metadata
+- Open Graph metadata
+- Proper semantic HTML
+
+Animations should be subtle and professional. Do not over-animate the site.
+
+### Responsive Design
+
+The website must be fully responsive.
+
+Desktop should feel like a premium professional portfolio.
+
+Mobile should have:
+- Clean navigation
+- Stacked project cards
+- Responsive charts
+- Readable typography
+- Touch-friendly buttons
+- No horizontal scrolling
+
+### SEO
+
+Include:
+- Professional page title
+- Meta description
+- Open Graph metadata
+- Relevant keywords
+- Semantic headings
+- Proper image alt text
+- Sitemap-ready structure
+
+### Important
+
+Do not make the website look like a generic developer portfolio.
+
+The visual identity should specifically communicate **data analytics and business intelligence**.
+
+The main storytelling should be:
+
+**Problem → Data → Analysis → Insight → Recommendation → Business Impact**
+
+Prioritize demonstrating how the analyst uses data to solve real-world business problems rather than simply listing technical skills.
+
+Use realistic placeholder content and sample data where actual information is not provided, but structure everything so the real analyst can easily replace it later.
+
+Build the site as a polished portfolio that would be credible when viewed by **recruiters, hiring managers, clients, and business stakeholders**.
